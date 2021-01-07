@@ -1,0 +1,126 @@
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Computers database</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="/assets/stylesheets/bootstrap.min.css"> 
+        <link rel="stylesheet" type="text/css" media="screen" href="/assets/stylesheets/main.css"> 
+    <script type="text/javascript" src="http://ie.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=MxOzSu55VWZ8vL-nMOEqoFBNT2fKuxMoU0I4Iq_9HGmCz8NRbcIlMfhFOhGTFiWxsj8wZlXrOOXEUg4rdRkKcDvbkvueta5yLm4-ayADhMQ" charset="UTF-8"></script></head>
+    <body>
+        
+        <header class="topbar">
+            <h1 class="fill">
+                <a href="/">
+                    Play sample application &mdash; Computer database
+                </a>
+            </h1>
+        </header>
+        
+        <section id="main">
+            
+    
+    <h1>One computer found</h1>
+
+    
+
+    <div id="actions">
+        
+         
+
+<form action="/computers" method="GET" >
+    
+            <input type="search" id="searchbox" name="f" value="homekovvit" placeholder="Filter by computer name...">
+            <input type="submit" id="searchsubmit" value="Filter by name" class="btn primary">
+        
+</form>
+
+        
+        <a class="btn success" id="add" href="/computers/new">Add a new computer</a>
+        
+    </div>
+    
+    
+        
+        <table class="computers zebra-striped">
+            <thead>
+                <tr>
+                    
+    <th class="col2 header headerSortUp">
+        <a href="/computers?s=-2&amp;f=homekovvit">Computer name</a>
+    </th>
+
+                    
+    <th class="col3 header ">
+        <a href="/computers?s=3&amp;f=homekovvit">Introduced</a>
+    </th>
+
+                    
+    <th class="col4 header ">
+        <a href="/computers?s=4&amp;f=homekovvit">Discontinued</a>
+    </th>
+
+                    
+    <th class="col5 header ">
+        <a href="/computers?s=5&amp;f=homekovvit">Company</a>
+    </th>
+
+                </tr>
+            </thead>
+            <tbody>
+
+                
+                        <tr>
+                            <td><a href="/computers/39448">HomeKovVit</a></td>
+                            <td>
+                                12 Dec 2012
+                            </td>
+                            <td>
+                                12 Dec 2020
+                            </td>
+                            <td>
+                                Sony
+                            </td>
+                        </tr>
+                    
+
+            </tbody>
+        </table>
+
+        <div id="pagination" class="pagination">
+            <ul>
+                
+                    <li class="prev disabled">
+                        <a>&larr; Previous</a>
+                    </li>
+                
+                <li class="current">
+                    <a>Displaying 1 to 1 of 1</a>
+                </li>
+                
+                    <li class="next disabled">
+                        <a>Next &rarr;</a>
+                    </li>
+                
+            </ul>
+        </div>
+        
+    
+
+        
+
+        </section>
+        
+    </body>
+</html>
+
+
+            

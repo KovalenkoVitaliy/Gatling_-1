@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Admin\Desktop\Задания по LoadRunner (Стажировка)\ДЗ_№1_17.03_(Kovalenko Vit)
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\admin\desktop\задания по loadrunner (стажировка)\дз_№1_17.03_(kovalenko vit)\\logfile.log
+c:\users\admin\desktop\задания по loadrunner (стажировка)\дз_№1_17.03_(kovalenko vit)\\combined_Homework(Kovalenko Vit.).c
+c:\users\admin\desktop\задания по loadrunner (стажировка)\дз_№1_17.03_(kovalenko vit)\\pre_cci.c
